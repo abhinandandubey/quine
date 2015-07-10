@@ -1,7 +1,7 @@
 # quine
 A NonEmpty Quine In Java Using ProcessBuilder Runtime - "Computer Recreations: Self-Reproducing Automata" Jean Millo, 1972
 
-The quine is made essentially on a total new concept of using a ProcessBuilder to act as a reproducing agent. The program gives as output its own source code, and can be worked out on Windows platform.
+The quine is made essentially on a total new concept of using a ProcessBuilder to act as a reproducing agent. The program gives as output its own source code, and can be worked out on Windows platform. Exception are handled using java.util.logging.Level; java.util.logging.Logger;
 
 Current Possibilities:
 
@@ -9,3 +9,4 @@ Current Possibilities:
 - Open to other possibilities.
 
 Inspired by "Computer Recreations: Self-Reproducing Automata" Jean Millo, 1972
+
